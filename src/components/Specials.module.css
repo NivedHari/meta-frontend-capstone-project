@@ -1,0 +1,40 @@
+.container {
+  margin-top: 6rem;
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading h1{
+  font-size: 1.5rem;
+}
+
+.heading button {
+  background-color: #f4ce14;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 12px;
+  transition-duration: 300ms;
+}
+
+.heading button:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,25 @@
+.container{
+    margin-top: 5rem;
+    background-color:#495e57 ;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.testimonials{
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 1.5rem;
+    color: #EDEFEE;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}

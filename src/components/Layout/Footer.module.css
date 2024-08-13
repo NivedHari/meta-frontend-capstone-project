@@ -1,0 +1,38 @@
+.container{
+    margin-top: 5rem;
+    background-color:#495e57 ;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer{
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    color: #edefee;
+}
+
+.logo{
+    flex: 1;
+}
+
+
+.links{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links h1{
+    font-family: "Karla", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.links ul{
+    list-style : none;
+    font-size: 0.8rem;
+    font-family: "Karla", sans-serif;
+    line-height: 1.1rem;
+}
