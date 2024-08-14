@@ -5,9 +5,10 @@ import Footer from "./components/Layout/Footer";
 import Homepage from "./Pages/Homepage";
 import AboutPage from "./Pages/AboutPage";
 import Menu from "./Pages/Menu";
-import Reservations from "./Pages/Reservations";
 import OrderOnline from "./Pages/OrderOnline";
 import Login from "./Pages/Login";
+import BookingPage from "./Pages/BookingPage";
+import ConfirmedBooking from "./Pages/ConfirmedBooking";
 
 export default function App() {
   return (
@@ -17,9 +18,10 @@ export default function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/reservations" element={<Reservations />} />
-        <Route path="/order-online" element={<OrderOnline />} />
+        <Route path="/reservations" element={<BookingPage />} />
+        <Route path="/order" element={<OrderOnline />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/booking-confirm" element={<ConfirmedBooking />} />
       </Routes>
       <Footer />
     </BrowserRouter>

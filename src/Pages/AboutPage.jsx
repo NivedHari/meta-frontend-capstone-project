@@ -1,7 +1,17 @@
-import React from 'react'
+import React from "react";
+import UnderConstruction from "../components/UnderConstruction";
 
 export default function AboutPage() {
   return (
-    <div>AboutPage</div>
-  )
+    <section
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <UnderConstruction />
+    </section>
+  );
 }

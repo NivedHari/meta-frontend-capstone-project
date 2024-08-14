@@ -1,5 +1,4 @@
 .container{
-    margin-top: 5rem;
     background-color:#495e57 ;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -35,4 +34,26 @@
     font-size: 0.8rem;
     font-family: "Karla", sans-serif;
     line-height: 1.1rem;
+}
+
+.navList a{
+    text-decoration: none;
+    color: #edefee;
+    transition-duration: 500ms;
+}
+.navList a:hover{
+    text-decoration: none;
+    color: #f4ce14;
+}
+
+.social_list{
+    display: flex;
+    gap: 1rem;
+}
+.social_list li{
+    font-size: 1.2rem;
+}
+
+.social_list a{
+     color: #edefee;
 }

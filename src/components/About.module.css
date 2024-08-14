@@ -56,3 +56,7 @@
     z-index: -1;
     border-radius: 8px;
 }
+
+.container{
+    height: 28rem;
+}
